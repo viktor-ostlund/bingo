@@ -1,4 +1,5 @@
 export const prepareBoards = (boards) => boards
+    .replaceAll('\n ', ' ')
     .replaceAll('\n', ' ')
     .replaceAll('  ', ' ')
     .split(' ')
